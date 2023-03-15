@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LiveGuru">
+
+	<test name="Run on Chrome">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<!--<class name="com.LiveGuru.Register" />
+			<class name="com.LiveGuru.Product" /> 
+			<class name="com.LiveGuru.Review" />
+			<class name="com.LiveGuru.Purchase" />
+			<class name="com.LiveGuru.Search" />-->
+			<class name="com.LiveGuru.Wishlist" />
+
+		</classes>
+	</test>
+
+</suite>

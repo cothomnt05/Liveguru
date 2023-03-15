@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LiveGuru]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Run on Chrome(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.LiveGuru.Wishlist">
+        <methods>
+          <include name="TC_08_Verify_you_can_share_wishlist_to_other_people_using_email"/>
+          <include name="after"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.LiveGuru.Wishlist -->
+      <class name="com.LiveGuru.Product">
+        <methods>
+          <include name="TC_05_Verify_discount_coupon_works_correctly"/>
+          <include name="before"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.LiveGuru.Product -->
+    </classes>
+  </test> <!-- Run on Chrome(failed) -->
+</suite> <!-- Failed suite [LiveGuru] -->
